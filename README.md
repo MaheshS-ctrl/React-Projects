@@ -4,4 +4,4 @@
 <a href="https://banner-page.vercel.app/">Banner-Page</a>
 <br/>
 
-<a href="https://react-projects-blue-three.vercel.app/">Contactr-Page</a>
+<a href="https://react-projects-blue-three.vercel.app/">Contact-Page</a>

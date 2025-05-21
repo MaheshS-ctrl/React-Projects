@@ -1,0 +1,167 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+  margin: 0;
+}
+
+body{
+  font-family: "Poppins", sans-serif;
+}
+
+
+/* StartGame */
+
+.container{
+    height: 100vh;
+    max-width: 1182px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.diceimg1 img{
+    width: 649px;
+    height: 522px;
+}
+
+.container h1{
+    font-size: 96px;
+    white-space: nowrap;
+}
+
+.container button{
+    width: 220px;
+    height: 44px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+    &:hover{
+        background-color: white;
+        color: black;
+    }
+}
+
+/* GamePlay */
+
+.containerGameplay{
+    height: 151px;
+    max-width: 1280px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+
+.containerGameplay totalScore{
+    width: 200px;
+text-align: center;
+display: flex coln;
+justify-content: center;
+
+}
+
+.containerGameplay h1{
+    width: 62px;
+    font-size: 112px;
+    line-height: 100px;
+}
+
+.containerGameplay p{
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.selectNumber{
+    display: flex coln;
+    justify-content: end;
+    align-items: end;
+}
+
+.selectNumber button{
+    width: 72px;
+    height: 72px;
+    background-color: white;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.selectNumber button.selected {
+  background-color: black;
+  color: white;
+}
+
+/* RollDice */
+.dice{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    
+}
+
+.dice img{
+    width: 200px;
+    height: 200px;
+    cursor: pointer;
+    transition: 0.5s background ease-in;
+}
+
+.dice p{
+    font-size: 24px;
+}
+
+.dice button{
+    width: 200px;
+    height: 34px;
+    font-size: 16px;
+   font-weight: 500;
+   padding: 5px;
+}
+
+.dice #reset{
+    background-color: white;
+    color: black;
+
+    &:hover{
+        color: red;
+    }
+}
+
+.dice #rules{
+    background-color: black;
+    color: white;
+
+    &:hover{
+        color: red;
+    }
+}
+
+#error{
+    color: red;
+
+}
+
+/* Rules */
+
+.rules{
+    background-color: #FBF1F1;
+    padding: 20px;
+    
+}
+
+.rules h1{
+    font-size: 24px;
+}
+
+.rules p{
+    font-size: 16px;
+}

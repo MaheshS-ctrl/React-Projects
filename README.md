@@ -8,3 +8,6 @@
 <br/>
 
 <a href="https://react-projects-bt76.vercel.app/">Dice-Game</a>
+<br/>
+
+<a href="https://react-projects-xetd.vercel.app/">Dice-Game</a>

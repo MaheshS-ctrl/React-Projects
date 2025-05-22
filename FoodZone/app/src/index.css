@@ -1,0 +1,155 @@
+/* App */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.TopContainer{
+    background-color: #323334;
+    width: 100vw;
+    height: 241px;
+   margin: 0 ;
+}
+
+
+.TopContainer .nav{
+ padding-top: 85px;
+    padding-left: 120px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search input{
+    height: 40px;
+    width: 285px;
+    display: flex;
+    font-size: 16px;
+    padding-left: 10px;
+}
+
+.menu{
+    display: flex;
+    gap: 14px;
+    align-items: center;
+    justify-content: center;
+    padding-top: 50px;
+    font-size: 16px;
+    
+}
+
+.menu #all{
+    width: 43px;
+    height: 31px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+
+    &:hover{
+        background-color: brown;
+    }
+}
+
+.menu #breakfast{
+    width: 93px;
+    height: 31px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+
+    &:hover{
+        background-color: brown;
+    }
+}
+
+.menu #lunch{
+    width: 71px;
+    height: 31px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+
+    &:hover{
+        background-color: brown;
+    }
+}
+
+.menu #dinner{
+    width: 74px;
+    height: 31px;
+    background-color: red;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+
+    &:hover{
+        background-color: brown;
+    }
+
+}
+
+.FoodCartContainer{
+    background-image: url("./images/bg.png");
+    background-size: cover;
+    min-height: calc(100vh - 241px);
+    width: 100vw;
+    margin: 0;
+  
+}
+
+/* SearchResult */
+
+.food-image img{
+    width: 133px;
+    height: 133px;
+    border-radius: 75px;
+    padding: 10px;
+   
+}
+
+.FoodCards{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    overflow-x: hidden;
+row-gap: 32px;
+column-gap: 20px;
+justify-content: center;
+align-items: center;
+}
+
+.food-Card{
+    border: 0.66px solid white;
+    width: 340px;
+    height: 167px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    border-radius: 15px;
+    backdrop-filter: blur(13.1842px);
+     display: flex;
+     gap: 10px;
+}
+
+.info{
+    color: white;
+    padding-top: 20px;
+}
+
+.info p{
+    padding-top: 10px;
+}
+
+.prize button{ 
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-right: 10px;
+    width: 57px;
+    height: 25px;
+    background-color: red;
+    color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    
+}

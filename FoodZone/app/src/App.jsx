@@ -34,8 +34,6 @@ const App = () => {
   const SearchFood = (e) => {
     const searchValue = e.target.value;
 
-    console.log(searchValue);
-
     if (searchValue === "")
       setFilteredData(null);
 

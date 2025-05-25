@@ -10,4 +10,4 @@
 <a href="https://react-projects-bt76.vercel.app/">Dice-Game</a>
 <br/>
 
-<a href="https://react-projects-xetd.vercel.app/">Food Zone</a>
+<a href="https://react-projects-jo82.vercel.app/">Food Zone</a>

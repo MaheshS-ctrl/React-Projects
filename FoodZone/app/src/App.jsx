@@ -12,6 +12,7 @@ const App = () => {
 
   useEffect(() => {
     const BASE_URL = "ejson.json"
+    
     const fetchFoodData = async () => {
 
       setLoading(true)

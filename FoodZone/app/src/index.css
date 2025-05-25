@@ -91,7 +91,7 @@
 }
 
 .FoodCartContainer{
-    background-image: url("/images/bg.png");
+    background-image: url("./images/bg.png");
     background-size: cover;
     min-height: calc(100vh - 241px);
     width: 100vw;
